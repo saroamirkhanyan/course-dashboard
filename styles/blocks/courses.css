@@ -1,0 +1,52 @@
+/* Blocks */
+@import "./filter.css";
+@import "./course.css";
+/* Courses */
+
+/* courses top */
+
+.courses__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .courses__top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* courses title */
+.courses__title {
+    color: #011f3b;
+    font-size: 28px;
+    margin: 0;
+}
+
+/* courses content */
+
+.courses__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+@media screen and (max-width: 1203px) {
+    .courses__content {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* first course */
+.course:first-of-type {
+    grid-column: span 2;
+}
+
+@media screen and (max-width: 1203px) {
+    .course:first-of-type {
+        grid-column: initial;
+    }
+}

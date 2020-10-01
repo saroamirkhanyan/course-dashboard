@@ -1,0 +1,27 @@
+/* upgrade */
+
+.upgrade {
+    width: 80%;
+    height: 200px;
+    margin: 50px auto;
+    background-color: #f5f5fb;
+    border-radius: 12px;
+}
+
+/* upgrade text */
+
+.upgrade__text {
+    color: #8da1b5;
+}
+
+/* upgrade image */
+
+.upgrade__image {
+    margin-top: -50px;
+}
+
+.upgrade__button {
+    margin-top: 20px;
+    width: 144px;
+    height: 48px;
+}

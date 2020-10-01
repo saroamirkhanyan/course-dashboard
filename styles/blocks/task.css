@@ -1,0 +1,22 @@
+/* task */
+
+.task {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    align-items: center;
+    grid-column-gap: 20px;
+    margin-bottom: 10px;
+}
+/* task date */
+.task__date {
+    grid-column-start: 2;
+    color: #83919e;
+}
+/* task image */
+.task__image {
+    grid-row: 1 / 3;
+}
+/* task title */
+.task__title {
+    margin: 0;
+}

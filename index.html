@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Course Dashboard</title>
+        <link rel="stylesheet" href="./styles/index.css" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+    <body>
+        <!-- Container -->
+        <div class="container">
+            <aside class="aside-left">
+                <img src="./images/logo.svg" alt="" />
+                <button class="aside-left__button blue-button">
+                    Join a course
+                </button>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link">
+                                <img
+                                    class="menu__item-image"
+                                    src="./images/menu-icons/resources.svg"
+                                    alt=""
+                                />
+                                <span class="menu__item-text">Resources</span>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link">
+                                <img
+                                    class="menu__item-image"
+                                    src="./images/menu-icons/friends.svg"
+                                    alt=""
+                                />
+                                <span class="menu__item-text">Friends</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="upgrade">
+                    <img
+                        class="upgrade__image"
+                        src="./images/upgrade-icon.svg "
+                        alt="upgrade icon"
+                    />
+                    <p class="upgrade__text">Upgrade to for more resources</p>
+                    <button class="upgrade__button blue-button">Upgrade</button>
+                </div>
+            </aside>
+            <main class="main">
+                <div class="main__top">
+                    <div class="search">
+                        <i class="fa fa-search search__icon"></i>
+                        <input
+                            class="search__input"
+                            placeholder="Search"
+                            type="text"
+                        />
+                    </div>
+                    <img class="notification" src="./images/bell.svg" alt="" />
+                </div>
+                <div class="courses">
+                    <div class="courses__top">
+                        <h3 class="courses__title">All courses</h3>
+                        <div class="filter">
+                            <ul class="filter__list">
+                                <li class="filter__item">
+                                    <a href="#" class="filter__link">
+                                        ongoing
+                                    </a>
+                                </li>
+                                <li class="filter__item">
+                                    <a href="#" class="filter__link">
+                                        favourite
+                                    </a>
+                                </li>
+                                <li class="filter__item">
+                                    <a href="#" class="filter__link">
+                                        complete
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="courses__content">
+                        <div class="course">
+                            <img
+                                class="course__background"
+                                src="./images/ux-course.svg"
+                                alt=""
+                            />
+                            <div class="course__content">
+                                <h4 class="course__title">Ui/Ux Design</h4>
+                                <span class="course__duration">2h 20min</span>
+                                <img
+                                    class="course__play"
+                                    src="./images/play.svg"
+                                    alt=""
+                                />
+                                <img
+                                    src="./images/ux-course-teacher.svg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img
+                                class="course__background"
+                                src="./images/ux-course.svg"
+                                alt=""
+                            />
+                            <div class="course__content">
+                                <h4 class="course__title">Ui/Ux Design</h4>
+                                <span class="course__duration">2h 20min</span>
+                                <img
+                                    class="course__play"
+                                    src="./images/play.svg"
+                                    alt=""
+                                />
+                                <img
+                                    src="./images/ux-course-teacher.svg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img
+                                class="course__background"
+                                src="./images/ux-course.svg"
+                                alt=""
+                            />
+                            <div class="course__content">
+                                <h4 class="course__title">Ui/Ux Design</h4>
+                                <span class="course__duration">2h 20min</span>
+                                <img
+                                    class="course__play"
+                                    src="./images/play.svg"
+                                    alt=""
+                                />
+                                <img
+                                    src="./images/ux-course-teacher.svg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- aside -->
+            <aside class="aside-right">
+                <!-- profile -->
+                <div class="profile">
+                    <img
+                        class="profile__image"
+                        src="./images/profile.svg"
+                        alt=""
+                    />
+                    <span class="profile__name">Alexa Rogue</span>
+                    <i class="profile__icon-down fa fa-arrow-down"></i>
+                </div>
+                <!-- profile end -->
+                <div class="progresses">
+                    <h4 class="progresses__title">Progress</h4>
+
+                    <div class="progress">
+                        <img
+                            class="progress__image"
+                            src="./images/pencil.svg"
+                        />
+                        <h4 class="progress__title">Ui/Ux Design</h4>
+                        <span class="progress__level">Advanced</span>
+
+                        <div class="range progress__range">
+                            <div
+                                class="range__passed"
+                                style="background-color: #5e81f4; width: 70%"
+                            ></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <img
+                            class="progress__image"
+                            src="./images/pencil.svg"
+                        />
+                        <h4 class="progress__title">Ui/Ux Design</h4>
+                        <span class="progress__level">Advanced</span>
+
+                        <div class="range progress__range">
+                            <div
+                                class="range__passed"
+                                style="background-color: #5e81f4; width: 70%"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tasks">
+                    <h4 class="tasks__title">Upcoming task</h4>
+
+                    <div class="task">
+                        <img class="task__image" src="./images/discuss.svg" />
+                        <h4 class="task__title">Ui/Ux Design</h4>
+                        <span class="task__date">Advanced</span>
+                    </div>
+
+                    <div class="task">
+                        <img class="task__image" src="./images/discuss.svg" />
+                        <h4 class="task__title">Ui/Ux Design</h4>
+                        <span class="task__date">Advanced</span>
+                    </div>
+
+                    <div class="task">
+                        <img class="task__image" src="./images/discuss.svg" />
+                        <h4 class="task__title">Ui/Ux Design</h4>
+                        <span class="task__date">Advanced</span>
+                    </div>
+                </div>
+                <img class="download" src="./images/download.svg" alt="" />
+            </aside>
+        </div>
+        <!-- Container end -->
+    </body>
+</html>

@@ -1,0 +1,18 @@
+/* Filter */
+
+.filter__list {
+    padding: 0;
+}
+/* filter item */
+.filter__item {
+    display: inline-block;
+    color: #768492;
+    text-transform: capitalize;
+    margin-right: 15px;
+}
+
+/* filter link */
+.filter__link {
+    text-decoration: none;
+    color: inherit;
+}

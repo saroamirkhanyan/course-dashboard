@@ -1,0 +1,24 @@
+/* Blocks */
+@import "./search.css";
+@import "./courses.css";
+
+/* main */
+.main {
+    padding: 42px;
+}
+
+@media screen and (max-width: 425px) {
+    .main {
+        padding: 20px;
+    }
+}
+
+/* Main top */
+.main__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.notification {
+    cursor: pointer;
+}

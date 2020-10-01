@@ -1,0 +1,44 @@
+/* menu */
+
+.menu {
+    width: 80%;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1180px) {
+    .menu {
+        width: initial;
+    }
+}
+
+/* menu list */
+.menu__list {
+    list-style-type: none;
+}
+
+/* menu item */
+
+.menu__item {
+    text-align: left;
+    padding: 5px;
+}
+
+/* menu item text */
+
+.menu__item-text {
+    margin-left: 15px;
+    color: #8da1b5;
+}
+
+/* menu item image */
+
+.menu__item-image {
+    vertical-align: top;
+    width: 25px;
+}
+
+/* menu link */
+
+.menu__link {
+    display: block;
+}

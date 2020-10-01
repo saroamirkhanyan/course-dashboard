@@ -1,0 +1,18 @@
+/* profile */
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    cursor: pointer;
+}
+/* profile down icon */
+.profile__icon-down {
+    color: #768492;
+}
+@media screen and (max-width: 1180px) {
+    .profile {
+        width: initial;
+    }
+}

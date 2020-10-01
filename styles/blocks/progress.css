@@ -1,0 +1,41 @@
+/* progress */
+@import "./range.css";
+
+/* progress */
+.progress {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto auto;
+    grid-column-gap: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* progress level */
+
+.progress__level {
+    grid-column-start: 2;
+    color: #83919e;
+}
+/* progress image */
+.progress__image {
+    grid-row: 1 / 3;
+    grid-column-start: 1;
+    align-self: center;
+}
+/* progress range */
+.progress__range {
+    grid-row: 1 / 3;
+    grid-column-start: 3;
+    align-self: center;
+}
+/* progress title */
+.progress__title {
+    margin: 0px;
+}
+
+@media screen and (max-width: 1180px) {
+    .progress__range {
+        display: none;
+    }
+}

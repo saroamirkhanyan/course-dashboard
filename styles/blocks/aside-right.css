@@ -1,0 +1,29 @@
+@import "./profile.css";
+@import "./progresses.css";
+@import "./task.css";
+@import "./download.css";
+/* aside right */
+.aside-right {
+    background-color: white;
+    padding: 35px;
+}
+
+.aside-right > * {
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1180px) {
+    .aside-right {
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .aside-right {
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .aside-right {
+        padding: 20px;
+    }
+}

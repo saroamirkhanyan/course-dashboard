@@ -1,0 +1,30 @@
+@import "./menu.css";
+@import "./upgrade.css";
+@import "./blue-button.css";
+
+/* Left aside */
+.aside-left {
+    height: 100%;
+    background-color: white;
+    text-align: center;
+}
+@media screen and (max-width: 800px) {
+    .aside-left {
+        display: none;
+    }
+}
+
+.aside-left > * {
+    margin-top: 48px;
+}
+/* button in aside */
+.aside-left__button {
+    width: 192px;
+    height: 48px;
+}
+
+@media screen and (max-width: 1190px) {
+    .aside-left__button {
+        width: 70%;
+    }
+}
